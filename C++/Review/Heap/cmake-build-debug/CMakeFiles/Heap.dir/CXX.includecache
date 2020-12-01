@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/bitnguyen/Desktop/UCDavis/Fall 2020/ECS 36/Homework/Programming/Review/Heap/main.cpp
+iostream
+-
+maxHeap.h
+/Users/bitnguyen/Desktop/UCDavis/Fall 2020/ECS 36/Homework/Programming/Review/Heap/maxHeap.h
+
+/Users/bitnguyen/Desktop/UCDavis/Fall 2020/ECS 36/Homework/Programming/Review/Heap/maxHeap.h
+vector
+-
+

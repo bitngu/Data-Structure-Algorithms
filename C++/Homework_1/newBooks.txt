@@ -1,0 +1,13 @@
+40,chinese,new
+83,english,new
+103,chinese,digital
+8,french,new
+9,spanish,used
+33,french,used
+33,spanish,new
+33,french,digital
+33,spanish,new
+33,chinese,new
+33,chinese,used
+33,spanish,used
+33,spanish,digital

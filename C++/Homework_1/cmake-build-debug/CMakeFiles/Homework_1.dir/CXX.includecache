@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/bitnguyen/Desktop/UCDavis/Fall 2020/ECS 36/Homework/Programming/Homework_1/Books.h
+string
+-
+
+/Users/bitnguyen/Desktop/UCDavis/Fall 2020/ECS 36/Homework/Programming/Homework_1/Clock.h
+chrono
+-
+ostream
+-
+
+/Users/bitnguyen/Desktop/UCDavis/Fall 2020/ECS 36/Homework/Programming/Homework_1/SearchNewBooks.cpp
+iostream
+-
+fstream
+-
+sstream
+-
+vector
+-
+chrono
+-
+algorithm
+-
+Books.h
+/Users/bitnguyen/Desktop/UCDavis/Fall 2020/ECS 36/Homework/Programming/Homework_1/Books.h
+Clock.h
+/Users/bitnguyen/Desktop/UCDavis/Fall 2020/ECS 36/Homework/Programming/Homework_1/Clock.h
+

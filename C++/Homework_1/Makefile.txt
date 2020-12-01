@@ -1,0 +1,24 @@
+#If makefile tries to clean a nonexist file, it should throw an error
+#REMOVE all files that means executable, .dat files when user run make clean
+
+CC = g++
+
+CFLAGS = -g -Wall -Werror
+
+default: SearchNewBooks
+
+SearchNewBooks: Books.o SearchNewBooks.o Clock.o
+	$(CC) $(CFLAGS) -o SearchNewBooks SearchNewBooks.o Books.o Clock.o
+
+
+Books.o: Books.cpp Books.h
+	$(CC) $(CFLAGS) -c Books.cpp
+
+SearchNewBooks.o: SearchNewBooks.cpp
+	$(CC) $(CFLAGS) -c SearchNewBooks.cpp
+
+Clock.o: Clock.cpp Clock.h
+    $(CC) $(CFLAGS) -c Clock.cpp
+
+clean:
+	$(RM) SearchNewBooks *.o *.dat

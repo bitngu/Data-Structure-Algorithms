@@ -1,0 +1,2 @@
+40,chinese,new
+83,french,new
